@@ -14,6 +14,8 @@
     width: 120px;
     padding: 0.4em 0.4em;
     border: none;
+    background-color: #fefefe;
+    color: #222222;
     border-bottom: 2px solid rgba(0, 153, 51, 0.5);
     font-family: inherit;
     border-radius: 0;
