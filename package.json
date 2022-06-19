@@ -1,7 +1,7 @@
 {
     "name": "musictree",
     "version": "0.1.0",
-    "homepage": "https://songforthemute.github.io/music-app/",
+    "homepage": "https://songforthemute.github.io/musictree/",
     "private": false,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
