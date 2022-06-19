@@ -1,0 +1,39 @@
+/* Chart */
+.chart__title {
+    /* margin: 0 auto; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: #009933 2.5px solid;
+}
+
+.chart__form {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.chart__label {
+    margin: 5px 2px;
+    font-weight: 500;
+}
+
+.chart__label2 {
+    margin-left: 15px;
+}
+
+.chart__select {
+    width: 120px;
+    padding: 0.4em 0.4em;
+    border: none;
+    background-color: #fefefe;
+    border-bottom: 2px solid rgba(0, 153, 51, 0.5);
+    font-family: inherit;
+    border-radius: 0px;
+}
+
+.chart__body {
+    margin: 15px 0;
+}

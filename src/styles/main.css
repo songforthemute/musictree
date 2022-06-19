@@ -1,0 +1,10 @@
+/* Main page */
+.root__title {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: #009933 2.5px solid;
+}

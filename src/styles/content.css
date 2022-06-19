@@ -1,0 +1,114 @@
+/* Track & Artist */
+.content__img {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.content__title {
+    /* margin: 0 auto; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: #009933 2.5px solid;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+}
+
+.content__play {
+    cursor: pointer;
+    background: red;
+    border-radius: 50% / 10%;
+    color: #ffffff;
+    font-size: 10px;
+    height: 3em;
+    margin: 0px 15px;
+    top: -5px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0.1em;
+    transition: all 150ms ease-out;
+    width: 3.5em;
+    border: none;
+}
+
+.content__play:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
+
+.content__play::before {
+    background: inherit;
+    border-radius: 5% / 50%;
+    bottom: 9%;
+    content: "";
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 9%;
+}
+
+.content__play::after {
+    border-style: solid;
+    border-width: 1em 0 1em 1.732em;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+    content: " ";
+    font-size: 0.75em;
+    height: 0;
+    margin: -1em 0 0 -0.75em;
+    top: 50%;
+    position: absolute;
+    width: 0;
+}
+
+.content__detail {
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.content__detail__header {
+    font-weight: 600;
+    padding: 6px;
+    margin-right: 10px;
+    background-color: rgba(0, 153, 51, 0.35);
+    border-radius: 5px;
+}
+
+.content__tag {
+    font-size: 14px;
+    padding: 6px;
+    margin: 0 2.5px;
+    border-radius: 6px;
+    background-color: #dddddd;
+    color: #444444;
+}
+
+.content__tag:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
+
+.content__summary {
+    padding: 1px 0.4rem;
+    margin: 12px 0;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.content__summary__a {
+    font-weight: 600;
+}
+
+.content__summary__a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #009933;
+    border-bottom: 3px solid rgba(0, 153, 51, 0.5);
+}

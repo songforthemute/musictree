@@ -1,0 +1,19 @@
+/* SearchResults */
+.result {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.result__even {
+    background-color: rgba(0, 153, 51, 0.1);
+}
+
+.result a {
+    cursor: pointer;
+}
+
+.result a:hover {
+    transition: all 0.3s ease-in-out;
+    color: rgba(0, 153, 51, 0.9);
+    font-weight: 600;
+}

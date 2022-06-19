@@ -1,0 +1,19 @@
+/* HomeChart */
+.homeChart__row {
+    /* border-bottom: #009933 1.5px solid; */
+    padding: 5px 0px;
+    padding-left: 5px;
+    margin: 12px auto;
+    font-size: 18px;
+}
+
+.homeChart__row a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #009933;
+    opacity: 0.7;
+}
+
+.homeChart__top3 {
+    color: #009933;
+    font-weight: 600;
+}
