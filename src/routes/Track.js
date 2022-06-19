@@ -75,6 +75,8 @@ const Track = () => {
                     <h2 className="content__title">
                         {track} ({durationConvertor(trackInfo.duration)}){" "}
                         <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href={`https://www.youtube.com/results?search_query=${artist}+-+${track}`}
                         >
                             <button className="content__play"></button>
@@ -106,7 +108,13 @@ const Track = () => {
                                 : trackInfo.wiki.summary}
 
                             <span className="content__summary__a">
-                                <a href={trackInfo.url}>더보기</a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={trackInfo.url}
+                                >
+                                    더보기
+                                </a>
                             </span>
                         </p>
                     )}

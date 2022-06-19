@@ -50,6 +50,8 @@ const Artist = () => {
                     <h2 className="content__title">
                         {artistInfo.name}{" "}
                         <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href={`https://www.youtube.com/results?search_query=${artist}`}
                         >
                             <button className="content__play"></button>
@@ -60,7 +62,13 @@ const Artist = () => {
                             ? artistInfo.bio.summary.slice(0, 250) + " ... "
                             : artistInfo.bio.summary}
                         <span className="content__summary__a">
-                            <a href={artistInfo.bio.links.link.href}>더보기</a>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={artistInfo.bio.links.link.href}
+                            >
+                                더보기
+                            </a>
                         </span>
                     </p>
                     <div className="content__detail">
