@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/musictree/static/css/main.e51b0e92.css",
-    "main.js": "/musictree/static/js/main.89d95305.js",
+    "main.css": "/musictree/static/css/main.1259ed8c.css",
+    "main.js": "/musictree/static/js/main.b3e3c6f9.js",
     "index.html": "/musictree/index.html",
-    "main.e51b0e92.css.map": "/musictree/static/css/main.e51b0e92.css.map",
-    "main.89d95305.js.map": "/musictree/static/js/main.89d95305.js.map"
+    "main.1259ed8c.css.map": "/musictree/static/css/main.1259ed8c.css.map",
+    "main.b3e3c6f9.js.map": "/musictree/static/js/main.b3e3c6f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e51b0e92.css",
-    "static/js/main.89d95305.js"
+    "static/css/main.1259ed8c.css",
+    "static/js/main.b3e3c6f9.js"
   ]
 }
