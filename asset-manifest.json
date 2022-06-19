@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/musictree/static/css/main.52bd5ca2.css",
+    "main.js": "/musictree/static/js/main.d4e91ae8.js",
+    "index.html": "/musictree/index.html",
+    "main.52bd5ca2.css.map": "/musictree/static/css/main.52bd5ca2.css.map",
+    "main.d4e91ae8.js.map": "/musictree/static/js/main.d4e91ae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52bd5ca2.css",
+    "static/js/main.d4e91ae8.js"
+  ]
+}
