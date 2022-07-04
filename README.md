@@ -2,9 +2,11 @@
 
 이 프로젝트는 '`Melon`'에서 인스퍼레이션을 얻어 진행하게 되었습니다.
 
-Music Infomation Application을 목표로 계획했으며, 모바일과 데스크톱의 두가지 반응형 디자인으로 구현했습니다.
+RESTful API를 이용한 Music Infomation Application을 목표로 계획했으며,
 
-프로젝트 링크 : [https://songforthemute.github.io/musictree/]("https://songforthemute.github.io/musictree/")
+모바일과 데스크톱의 두가지 반응형 디자인으로 구현했습니다.
+
+프로젝트 링크 : [https://songforthemute.github.io/musictree]("https://songforthemute.github.io/musictree")
 
 미디엄 블로그 링크 : [https://medium.com/@songforthemute]("https://medium.com/@songforthemute")
 
@@ -25,7 +27,7 @@ powered by : ["https://www.last.fm"]("http://www.last.fm")
 
 ## 1. 기술 스택
 
--   Language : `HTML`, `CSS`, `JavaScript` (추후 TypeScript로 마이그레이션 예정)
+-   Language : `HTML`, `CSS`, `JavaScript`
 
 -   Frontend : `React.js`
 
