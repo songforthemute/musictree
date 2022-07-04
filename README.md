@@ -10,7 +10,7 @@ Music Infomation Application을 목표로 계획했으며, 모바일과 데스�
 
 powered by : ["https://www.last.fm"]("http://www.last.fm")
 
-- 이전에 커밋한 소스코드 : [https://github.com/songforthemute/music-app]("https://github.com/songforthemute/music-app")
+- 이전에 커밋한 내역  : [https://github.com/songforthemute/Deprecated-musictree]("https://github.com/songforthemute/Deprecated-musictree")
 
 ---
 
